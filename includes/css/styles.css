@@ -1,4 +1,4 @@
- /*
+/*
 
 My Custom CSS
 =============
@@ -15,14 +15,14 @@ Notes:    Hand coded for Udemy.com
    -------------------------------------- */
 
    body {
-   	background-image: url("../../images/wallpaper.jpg");
-   	margin: 0;
-   	background-attachment: fixed;
-   	background-position: center;
-   	background-repeat: no-repeat;
-   	background-size: cover;
-   	font-family: 'Boogaloo', cursive;
-   }
+    background-image: url("../../images/wallpaper.jpg");
+    margin: 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Boogaloo', cursive;
+  }
 
 
 
@@ -37,48 +37,35 @@ Notes:    Hand coded for Udemy.com
    -------------------------------------- */
 
    .navbar-inner {
-   	background-color: black;
-   	height: 70px;
-   	background: rgba(0, 0, 0, 0.1);
-   	margin-top: -20px;
-   }
-   #mobbutton{
-   	margin-top: 5px;
-   }
+    background-color: black;
+    height: 70px;
+    background: rgba(0, 0, 0, 0.1);
+    margin-top: -20px;
+  }
+  #mobbutton{
+    margin-top: 5px;
+  }
 
 
-   #logo {
-   	height: 40px;
-   }
+  #logo {
+    height: 40px;
+  }
 
-   #navright {
-   	margin-top:10px;
-   	
-
-   }
+  #navright {
+    margin-top: 10px;
+  }
 
 
-   .navbar-header a {
-   	color: white;
-   	font-size: 22px;
-   	font-family: 'Boogaloo', cursive;
-   }
+  .navbar-header a {
+    color: white;
+    font-size: 22px;
+    font-family: 'Boogaloo', cursive;
+  }
 
-   .navbar-nav>li>a {
-   	color: white;
-   }
+  .navbar-nav>li>a {
+    color: white;
+  }
 
-   .navbar-toggle {
-
-   	top: 28px;
-   	right: 10px;
-   	width: 48px;
-   	height: 32px;
-   	padding: 8px 12px;
-   	background-color: transparent;
-   	border: 1px solid #ddd;
-   	border-radius: 4px;
-   }
 
 
 
@@ -90,56 +77,56 @@ Notes:    Hand coded for Udemy.com
    -------------------------------------- */
 
    #herounit {
-   	background-image: url("../../images/herounit.jpg");
-   	background-attachment: fixed;
-   	background-position: center;
-   	background-repeat: no-repeat;
-   	background-size: cover;
-   	height: 600px;
-   	color: white;
-   	padding-top: 200px;
-   	margin: auto;
-   }
+    background-image: url("../../images/herounit.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: white;
+    padding-top: 200px;
+    margin: auto;
+  }
 
-   #herocontent,
-   #herohead {
-   	text-align: center;
-   	margin: 0 auto;
-   	width: 70%;
-   	font-family: 'Boogaloo', cursive;
-   }
-
-
-   h1 {
-   	text-align: center;
-   	color: Black;
-   	font-family: 'Boogaloo', cursive;
-   }
+  #herocontent,
+  #herohead {
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+    font-family: 'Boogaloo', cursive;
+  }
 
 
-   .thumbnail {
-   	margin: 15px;
-   	padding: 15px;
-   	background: white;
-   }
+  h1 {
+    text-align: center;
+    color: Black;
+    font-family: 'Boogaloo', cursive;
+  }
 
-   .thumbnail:hover {
 
-   	background-color: lightgrey;
-   }
+  .thumbnail {
+    margin: 15px;
+    padding: 15px;
+    background: white;
+  }
 
-   .caption h3 {
-   	font-family: 'Boogaloo', cursive;
-   }
+  .thumbnail:hover {
 
-   .modal-title {
-   	font-family: 'Boogaloo', cursive;
-   	font-size: 30px;
-   }
+    background-color: lightgrey;
+  }
 
-   .modal-body {
-   	font-size: 20px;
-   }
+  .caption h3 {
+    font-family: 'Boogaloo', cursive;
+  }
+
+  .modal-title {
+    font-family: 'Boogaloo', cursive;
+    font-size: 30px;
+  }
+
+  .modal-body {
+    font-size: 20px;
+  }
 
 
 
@@ -148,58 +135,63 @@ Notes:    Hand coded for Udemy.com
    -------------------------------------- */
 
    .effect8 {
-   	position: relative;
-   	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-   	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-   	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-   }
+    position: relative;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  }
 
-   .effect8:before,
-   .effect8:after {
-   	content: "";
-   	position: absolute;
-   	z-index: -1;
-   	-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
-   	-moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
-   	box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
-   	top: 10px;
-   	bottom: 10px;
-   	left: 0;
-   	right: 0;
-   	-moz-border-radius: 100px / 10px;
-   	border-radius: 100px / 10px;
-   }
+  .effect8:before,
+  .effect8:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    top: 10px;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    -moz-border-radius: 100px / 10px;
+    border-radius: 100px / 10px;
+  }
 
-   .effect8:after {
-   	right: 10px;
-   	left: auto;
-   	-webkit-transform: skew(8deg) rotate(3deg);
-   	-moz-transform: skew(8deg) rotate(3deg);
-   	-ms-transform: skew(8deg) rotate(3deg);
-   	-o-transform: skew(8deg) rotate(3deg);
-   	transform: skew(8deg) rotate(3deg);
-   }
+  .effect8:after {
+    right: 10px;
+    left: auto;
+    -webkit-transform: skew(8deg) rotate(3deg);
+    -moz-transform: skew(8deg) rotate(3deg);
+    -ms-transform: skew(8deg) rotate(3deg);
+    -o-transform: skew(8deg) rotate(3deg);
+    transform: skew(8deg) rotate(3deg);
+  }
 
-   .footer {
-   	background-color: rgb(0, 0, 0);
-   	margin: auto;
-   	text-align: Center;
-   }
+  .footer {
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    text-align: Center;
+  }
 
-   .footer h1,
-   h2,
-   p {
-   	color: white;
-   	font-family: 'Boogaloo', cursive;
-   }
+  .footer h1,
+  h2,
+  p {
+    color: white;
+    font-family: 'Boogaloo', cursive;
+  }
 
-   #part2 {
-   	width: 80% margin: auto;
-   }
+  #part2 {
+    width: 80% margin: auto;
+  }
 
-   .row {
-   	width: 100%;
-   }
+  .row {
+    width: 100%;
+  }
+
+  #heading{
+    font-family: 'Boogaloo', cursive;
+    font-size: 22px;  
+  }
 
 
 
@@ -207,18 +199,18 @@ Notes:    Hand coded for Udemy.com
 ICONS */
 
 .fa {
-	padding: 20px;
-	font-size: 30px;
-	width: 50px;
-	text-align: center;
-	text-decoration: none;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
 }
 
 
 /* Add a hover effect if you want */
 
 .fa:hover {
-	opacity: 0.7;
+  opacity: 0.7;
 }
 
 
@@ -228,30 +220,30 @@ ICONS */
 /* Facebook */
 
 .fa-facebook {
-	background: #3B5998;
-	color: white;
+  background: #3B5998;
+  color: white;
 }
 
 
 /* Twitter */
 
 .fa-twitter {
-	background: #55ACEE;
-	color: white;
+  background: #55ACEE;
+  color: white;
 }
 
 .fa-linkedin {
-	background: #007bb5;
-	color: white;
+  background: #007bb5;
+  color: white;
 }
 
 .fa-google {
-	background: #dd4b39;
-	color: white;
+  background: #dd4b39;
+  color: white;
 }
 
 #red {
-	color: red;
+  color: red;
 }
 
 
@@ -271,87 +263,81 @@ end of icons */
    @media (max-width: 480px) {
 
 
-   	#herocontent {
-   		text-align: center;
-   		margin: 0 auto;
-   		width: 70%;
-   		font-family: 'Boogaloo', cursive;
-   		font-size: 15px;
-   	}
+    #herocontent {
+      text-align: center;
+      margin: 0 auto;
+      width: 70%;
+      font-family: 'Boogaloo', cursive;
+      font-size: 15px;
+    }
 
-   	#herohead {
-   		font-size: 22px;
-   		text-align: center;
-   		margin: 0 auto;
-   		width: 70%;
-   		font-family: 'Boogaloo', cursive;
-   	}
+    #herohead {
+      font-size: 22px;
+      text-align: center;
+      margin: 0 auto;
+      width: 70%;
+      font-family: 'Boogaloo', cursive;
+    }
 
-   	#herounit {
-   		padding-top: 150px;
-   	}
+    #herounit {
+      padding-top: 150px;
+    }
 
-   	.footer p {
-   		color: white;
-   		font-family: 'Boogaloo', cursive;
-   		font-size: 15px;
-   	}
+    .footer p {
+      color: white;
+      font-family: 'Boogaloo', cursive;
+      font-size: 15px;
+    }
 
-   	.footer h1,
-   	h2 {
-   		color: white;
-   		font-family: 'Boogaloo', cursive;
-   		font-size: 20px;
-   	}
+    .footer h1,
+    h2 {
+      color: white;
+      font-family: 'Boogaloo', cursive;
+      font-size: 20px;
+    }
 
-   	.navbar-header a {
-   		color: white;
-   		font-size: 22px;
-   		font-family: 'Boogaloo', cursive;
-   	}
-
-   	#navright {
-   		margin-top:10px;
-   		background-color: black;
-
-   	}
-   }
+    .navbar-header a {
+      color: white;
+      font-size: 8px;
+      font-family: 'Boogaloo', cursive;
+    }
+  }
 
 
 
 
-   /* Landscape phone to portrait tablet */
+  /* Landscape phone to portrait tablet */
 
-   @media (max-width: 768px) {
+  @media (max-width: 768px) {
 
-   	#herocontent {
-   		text-align: center;
-   		margin: 0 auto;
-   		width: 70%;
-   		font-family: 'Boogaloo', cursive;
-   		font-size: 15px;
-   	}
+    #herocontent {
+      text-align: center;
+      margin: 0 auto;
+      width: 70%;
+      font-family: 'Boogaloo', cursive;
+      font-size: 15px;
+    }
 
-   	#herohead {
-   		font-size: 22px;
-   		text-align: center;
-   		margin: 0 auto;
-   		width: 70%;
-   		font-family: 'Boogaloo', cursive;
-   	}
+    #herohead {
+      font-size: 22px;
+      text-align: center;
+      margin: 0 auto;
+      width: 70%;
+      font-family: 'Boogaloo', cursive;
+    }
 
-   	#herounit {
-   		padding-top: 150px;
-   	}
-
-
-   	.navbar-inner {
-   		background-color: black;
-   	}
-   }
+    #herounit {
+      padding-top: 150px;
+    }
 
 
+    .navbar-inner {
+      background-color: black;
+    }
+  }
 
-   /* Large desktop */
 
-   @media (min-width: 1200px) {}
+
+  /* Large desktop */
+
+  @media (min-width: 1200px) {}
